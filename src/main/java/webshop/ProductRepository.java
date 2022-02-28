@@ -1,7 +1,6 @@
 package webshop;
 
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.RowMapper;
 
 import javax.sql.DataSource;
 import java.sql.*;
@@ -14,8 +13,6 @@ public class ProductRepository {
     public ProductRepository(DataSource dataSource) {
         this.dataSource = dataSource;
     }
-
-
 
     public long insertProduct(String productName, int price, int stock){
        try (Connection connection = dataSource.getConnection();

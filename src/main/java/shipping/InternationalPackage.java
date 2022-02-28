@@ -14,9 +14,9 @@ public class InternationalPackage implements Transportable {
         this.isbreakable = isbreakable;
         this.destinationCountry = destinationCountry;
         this.distance = distance;
-    }
 
-    public boolean isIsbreakable() {
+    }
+    public boolean isreakable() {
         return isbreakable;
     }
 

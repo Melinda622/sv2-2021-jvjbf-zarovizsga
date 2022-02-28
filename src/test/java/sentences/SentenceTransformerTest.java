@@ -18,7 +18,6 @@ class SentenceTransformerTest {
 
     }
 
-
     @Test
     void testShortenSentenceWithNotCapital() {
         SentenceTransformer st = new SentenceTransformer();

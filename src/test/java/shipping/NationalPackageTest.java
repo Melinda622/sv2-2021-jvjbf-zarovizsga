@@ -24,6 +24,4 @@ class NationalPackageTest {
         assertTrue(nationalPackage.isBreakable());
         assertEquals(2000,nationalPackage.calculateShippingPrice());
     }
-
-
 }
